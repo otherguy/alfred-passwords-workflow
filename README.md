@@ -36,9 +36,9 @@ The default keyword is `pw`. The first and only parameter is the desired passwor
 
 When hitting `⏎ Return` on a selected item, the generated password is copied to the clipboard.
 
-## `TODO` / Future Work
+## Planned Features
 
-* Add possibility to change default options
+* Possibility to change default options (default password length, delimiter, XKCD word lists, ...)
 
 ## Developers
 
