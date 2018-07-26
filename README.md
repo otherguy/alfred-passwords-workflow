@@ -17,7 +17,7 @@ Selecting the generated password copies it to the clipboard.
 
 The latest version can be found here as well:
 
-* https://www.alfredforum.com/topic/10546-airports/
+* http://www.packal.org/workflow/genererate-passwords
 * https://www.alfredforum.com/topic/11717-generate-passwords-workflow/
 
 ## Installation
