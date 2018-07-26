@@ -1,0 +1,2 @@
+Alfred-Workflow==1.36
+xkcdpass==1.16.5
