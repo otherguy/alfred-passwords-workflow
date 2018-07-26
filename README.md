@@ -1,11 +1,11 @@
 # Generate Passwords Workflow 🔐 for [Alfred 3](http://www.alfredapp.com)
 
-[![Latest Version](https://img.shields.io/github/tag/otherguy/alfred-generate-password-workflow.svg?style=flat-square&label=release)](https://github.com/otherguy/alfred-generate-password-workflow/tags)
-[![Downloads](https://img.shields.io/github/downloads/otherguy/alfred-generate-password-workflow/total.svg?style=flat-square)](https://github.com/otherguy/alfred-generate-password-workflow/releases)
-[![Circle CI](https://img.shields.io/circleci/project/github/otherguy/alfred-generate-password-workflow/master.svg?style=flat-square)](https://circleci.com/gh/otherguy/alfred-generate-password-workflow/tree/master)
-[![Issues](https://img.shields.io/github/issues/otherguy/alfred-generate-password-workflow.svg?style=flat-square)](https://github.com/otherguy/alfred-generate-password-workflow/issues)
+[![Latest Version](https://img.shields.io/github/tag/otherguy/alfred-passwords-workflow.svg?style=flat-square&label=release)](https://github.com/otherguy/alfred-passwords-workflow/tags)
+[![Downloads](https://img.shields.io/github/downloads/otherguy/alfred-passwords-workflow/total.svg?style=flat-square)](https://github.com/otherguy/alfred-passwords-workflow/releases)
+[![Circle CI](https://img.shields.io/circleci/project/github/otherguy/alfred-passwords-workflow/master.svg?style=flat-square)](https://circleci.com/gh/otherguy/alfred-passwords-workflow/tree/master)
+[![Issues](https://img.shields.io/github/issues/otherguy/alfred-passwords-workflow.svg?style=flat-square)](https://github.com/otherguy/alfred-passwords-workflow/issues)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
-[![Beerpay](https://img.shields.io/beerpay/otherguy/alfred-generate-password-workflow.svg?style=flat-square)](https://beerpay.io/otherguy/alfred-generate-password-workflow)
+[![Beerpay](https://img.shields.io/beerpay/otherguy/alfred-passwords-workflow.svg?style=flat-square)](https://beerpay.io/otherguy/alfred-passwords-workflow)
 
 A workflow for [Alfred 3](http://www.alfredapp.com) that helps you to quickly and securely generate random passwords of any given length.
 
@@ -22,7 +22,7 @@ The latest version can be found here as well:
 
 ## Installation
 
-Download the latest version of the `Genererate Passwords.alfredworkflow` from the [Releases](https://github.com/otherguy/alfred-generate-password-workflow/releases) page and double click the downloaded file to install it.
+Download the latest version of the `Genererate Passwords.alfredworkflow` from the [Releases](https://github.com/otherguy/alfred-passwords-workflow/releases) page and double click the downloaded file to install it.
 
 The workflow supports automatic updates and will perform daily update checks.
 
@@ -75,4 +75,4 @@ A big ♥️ _thank you_ to all creators!
 
 If this is useful to you in any way or you end up building it yourself, you could buy me a beer! 
 
-[![Beerpay](https://beerpay.io/otherguy/alfred-generate-password-workflow/badge.svg?style=beer-square)](https://beerpay.io/otherguy/alfred-generate-password-workflow)  [![Beerpay](https://beerpay.io/otherguy/alfred-generate-password-workflow/make-wish.svg?style=flat-square)](https://beerpay.io/otherguy/alfred-generate-password-workflow?focus=wish)
+[![Beerpay](https://beerpay.io/otherguy/alfred-passwords-workflow/badge.svg?style=beer-square)](https://beerpay.io/otherguy/alfred-passwords-workflow)  [![Beerpay](https://beerpay.io/otherguy/alfred-passwords-workflow/make-wish.svg?style=flat-square)](https://beerpay.io/otherguy/alfred-passwords-workflow?focus=wish)
