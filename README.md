@@ -22,7 +22,7 @@ The latest version can be found here as well:
 
 ## Installation
 
-Download the latest version of the `Genererate Passwords.alfredworkflow` from the [Releases](https://github.com/otherguy/alfred-passwords-workflow/releases) page and double click the downloaded file to install it.
+Download the latest version of the `GenereratePasswords.alfredworkflow` from the [Releases](https://github.com/otherguy/alfred-passwords-workflow/releases) page and double click the downloaded file to install it.
 
 The workflow supports automatic updates and will perform daily update checks.
 
