@@ -9,9 +9,9 @@
 
 A workflow for [Alfred 3](http://www.alfredapp.com) that helps you to quickly and securely generate random passwords of any given length.
 
-By default, it generates both an alphanumeric password and a strong password, containing special characters. As a bonus, it also generates [XKCD passwords](https://xkcd.com/936/) with 3 and 4 words.
+By default, it generates both an alphanumeric password and a strong password, containing special characters. As a bonus, it also generates [XKCD passwords](https://xkcd.com/936/) with both 3 and 4 words.
 
-Selecting the generated password copies it to the clipboard.
+Selecting the generated password in Alfred copies it to the clipboard.
 
 ![Example Screencast](resources/screencast-1.gif)
 
