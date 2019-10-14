@@ -19,10 +19,10 @@ def main(wf):
         'xkcd_delimiter':  '-',
         'xkcd_minlength':  4,
         'xkcd_maxlength':  10,
-        'xkcd_wordllist': 'eff-long', # eff-long (English), spa-mich (Spanish), fin-kotus (Finnish),ita-wiki (Italian), ger-anlx (German)
+        'xkcd_wordllist': 'eff-long',  # eff-long (English)
     }
 
-    # ================================= MAIN ===================================
+    # =============================== MAIN =================================
 
     # Get args from Workflow, already in normalized Unicode
     password_length = defaults['password_length']
@@ -40,7 +40,9 @@ def main(wf):
     xkcd_delimiter = defaults['xkcd_delimiter']
 
     # Get XKCD Wordlist and passwords
-    mywords = xp.generate_wordlist(wordfile=xkcd_wordfile, min_length=xkcd_min_length, max_length=xkcd_max_length)
+    mywords = xp.generate_wordlist(wordfile=xkcd_wordfile,
+                                   min_length=xkcd_min_length,
+                                   max_length=xkcd_max_length)
     xkcd_3 = xp.generate_xkcdpassword(mywords, 3, False, False, xkcd_delimiter)
     xkcd_4 = xp.generate_xkcdpassword(mywords, 4, False, False, xkcd_delimiter)
 
