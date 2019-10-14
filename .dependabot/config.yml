@@ -1,0 +1,13 @@
+# https://dependabot.com/
+version: 1
+update_configs:
+  - package_manager: "python"
+    directory: "/"
+    update_schedule: "live"
+    default_reviewers:
+      - "otherguy"
+    default_assignees:
+      - "otherguy"
+    default_labels:
+      - "dependabot 🤖"
+    version_requirement_updates: "auto"
