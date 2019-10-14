@@ -1,2 +1,5 @@
 Alfred-Workflow==1.37.2
 xkcdpass==1.17.3
+coverage==4.5.4
+pylint==1.9.5
+coveralls==1.8.2
