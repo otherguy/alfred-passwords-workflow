@@ -59,8 +59,8 @@ def main(wf):
     # Update workflow if a new version is available.
     if wf.update_available is True:
         wf.add_item('New version available', 'Press enter to install the update.',
-        autocomplete='workflow:update',
-        icon=ICON_INFO
+            autocomplete='workflow:update',
+            icon=ICON_INFO
     )
 
     # Add password items
@@ -77,8 +77,8 @@ if __name__ == '__main__':
     # Create a global `Workflow` object
     workflow3 = Workflow(
         libraries=['./lib'], update_settings={
-        'github_slug': 'otherguy/alfred-passwords-workflow',
-        'frequency': 1, # every day
+            'github_slug': 'otherguy/alfred-passwords-workflow',
+            'frequency': 1, # every day
         },
         help_url='https://github.com/otherguy/alfred-passwords-workflow'
     )
