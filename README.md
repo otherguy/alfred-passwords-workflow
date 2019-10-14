@@ -46,7 +46,7 @@ If you want to contribute, fork this repository and submit a pull request.
 
 To make the project work locally on your machine, check out the repository and issue the following commands:
 
-    $ pip install --ignore-installed --target=. Alfred-Workflow==1.36
+    $ pip install --ignore-installed --target=. Alfred-Workflow==1.37.2
     $ pip install --ignore-installed --target=lib -r requirements.txt
 
 Alternatively, if you would rather work with a virtual environment, run these commands:
@@ -73,6 +73,6 @@ A big ♥️ _thank you_ to all creators!
 
 ## Support on Beerpay
 
-If this is useful to you in any way or you end up building it yourself, you could buy me a beer! 
+If this is useful to you in any way or you end up building it yourself, you could buy me a beer!
 
 [![Beerpay](https://beerpay.io/otherguy/alfred-passwords-workflow/badge.svg?style=beer-square)](https://beerpay.io/otherguy/alfred-passwords-workflow)  [![Beerpay](https://beerpay.io/otherguy/alfred-passwords-workflow/make-wish.svg?style=flat-square)](https://beerpay.io/otherguy/alfred-passwords-workflow?focus=wish)
