@@ -15,10 +15,10 @@ Selecting the generated password in Alfred copies it to the clipboard.
 
 ![Example Screencast](resources/screencast-1.gif)
 
-The latest version can also be found here:
+The latest version can also be found on:
 
-* https://https://pacmax.org/pac/otherguy-alfred-passwords-workflow/
-* https://www.alfredforum.com/topic/11717-generate-passwords-workflow/
+* [Pacmax](https://pacmax.org/pac/otherguy-alfred-passwords-workflow/)
+* [The Alfred Forum](https://www.alfredforum.com/topic/11717-generate-passwords-workflow/)
 
 ## Installation
 
