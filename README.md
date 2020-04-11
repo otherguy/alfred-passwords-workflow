@@ -5,7 +5,6 @@
 [![Circle CI](https://img.shields.io/circleci/project/github/otherguy/alfred-passwords-workflow/master.svg?style=flat-square)](https://circleci.com/gh/otherguy/alfred-passwords-workflow/tree/master)
 [![Issues](https://img.shields.io/github/issues/otherguy/alfred-passwords-workflow.svg?style=flat-square)](https://github.com/otherguy/alfred-passwords-workflow/issues)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
-[![Beerpay](https://img.shields.io/beerpay/otherguy/alfred-passwords-workflow.svg?style=flat-square)](https://beerpay.io/otherguy/alfred-passwords-workflow)
 
 A workflow for [Alfred 3](http://www.alfredapp.com) that helps you to quickly and securely generate random passwords of any given length.
 
@@ -70,9 +69,3 @@ The following resources were used when creating this workflow:
 * The [`xkcdpass`](https://pypi.org/project/xkcdpass/) Python library for generating [XKCD passwords](https://xkcd.com/936/)
 
 A big ♥️ _thank you_ to all creators!
-
-## Support on Beerpay
-
-If this is useful to you in any way or you end up building it yourself, you could buy me a beer!
-
-[![Beerpay](https://beerpay.io/otherguy/alfred-passwords-workflow/badge.svg?style=beer-square)](https://beerpay.io/otherguy/alfred-passwords-workflow)  [![Beerpay](https://beerpay.io/otherguy/alfred-passwords-workflow/make-wish.svg?style=flat-square)](https://beerpay.io/otherguy/alfred-passwords-workflow?focus=wish)
