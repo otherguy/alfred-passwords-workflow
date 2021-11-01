@@ -1,4 +1,4 @@
 Alfred-Workflow==1.40.0
 xkcdpass==1.19.3
-coverage==6.0.2
+coverage==6.1.1
 python-coveralls==2.9.3
