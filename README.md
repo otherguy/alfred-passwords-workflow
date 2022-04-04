@@ -1,4 +1,4 @@
-# Generate Passwords Workflow 🔐 for [Alfred 3](http://www.alfredapp.com)
+# Generate Passwords Workflow 🔐 for [Alfred 4](http://www.alfredapp.com)
 
 [![Latest Version](https://img.shields.io/github/tag/otherguy/alfred-passwords-workflow.svg?style=flat-square&label=release)](https://github.com/otherguy/alfred-passwords-workflow/tags)
 [![Downloads](https://img.shields.io/github/downloads/otherguy/alfred-passwords-workflow/total.svg?style=flat-square)](https://github.com/otherguy/alfred-passwords-workflow/releases)
@@ -7,7 +7,7 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
 [![Beerpay](https://img.shields.io/beerpay/otherguy/alfred-passwords-workflow.svg?style=flat-square)](https://beerpay.io/otherguy/alfred-passwords-workflow)
 
-A workflow for [Alfred 3](http://www.alfredapp.com) that helps you to quickly and securely generate random passwords of any given length.
+A workflow for [Alfred 4](http://www.alfredapp.com) that helps you to quickly and securely generate random passwords of any given length.
 
 By default, it generates both an alphanumeric password and a strong password, containing special characters. As a bonus, it also generates [XKCD passwords](https://xkcd.com/936/) with 3 and 4 words.
 
@@ -46,16 +46,17 @@ If you want to contribute, fork this repository and submit a pull request.
 
 To make the project work locally on your machine, check out the repository and issue the following commands:
 
-    $ pip install --ignore-installed --target=. Alfred-Workflow==1.36
-    $ pip install --ignore-installed --target=lib -r requirements.txt
+    $ python -m pip install --ignore-installed --target=lib -r requirements.txt
 
-Alternatively, if you would rather work with a virtual environment, run these commands:
+Alternatively, if you would rather work with a virtual environment, run these commands (replace `<your-python-version>`
+with the version of Python you want to use, but 3.4 is the minimum requirement):
 
-    $ virtualenv --python=python2.7 .venv
+    $ python -m pip install virtualenv
+    $ python -m virtualenv --python=python<your-python-version> .venv
     $ source .venv/bin/activate
-    $ pip install -r requirements.txt
+    $ python -m pip install -r requirements.txt
 
-To run the script in the terminal, simply do:
+To run the script in the terminal, simply run:
 
     $ python pwgen.py
 
@@ -73,6 +74,6 @@ A big ♥️ _thank you_ to all creators!
 
 ## Support on Beerpay
 
-If this is useful to you in any way or you end up building it yourself, you could buy me a beer! 
+If this is useful to you in any way or you end up building it yourself, you could buy me a beer!
 
 [![Beerpay](https://beerpay.io/otherguy/alfred-passwords-workflow/badge.svg?style=beer-square)](https://beerpay.io/otherguy/alfred-passwords-workflow)  [![Beerpay](https://beerpay.io/otherguy/alfred-passwords-workflow/make-wish.svg?style=flat-square)](https://beerpay.io/otherguy/alfred-passwords-workflow?focus=wish)

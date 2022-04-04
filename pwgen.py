@@ -19,7 +19,7 @@ def main(wf):
     'xkcd_delimiter':  '-',
     'xkcd_minlength':  4,
     'xkcd_maxlength':  10,
-    'xkcd_wordllist': 'eff-long', # eff-long (English), spa-mich (Spanish), fin-kotus (Finnish),ita-wiki (Italian), ger-anlx (German)
+    'xkcd_wordllist': 'eff-long', # eff-long (English), spa-mich (Spanish), fin-kotus (Finnish), ita-wiki (Italian), ger-anlx (German)
   }
 
   # ================================= MAIN ===================================
