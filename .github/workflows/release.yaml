@@ -30,9 +30,9 @@ jobs:
       - name: Update info.plist
         run: perl -pi.bak -e "s/<string>(\d+\.\d+\.\d+)<\/string>/<string>${{ steps.version.outputs.VERSION }}<\/string>/ig" info.plist
       - name: Package Project
-        run: zip -9 -r 'Genererate Passwords.alfredworkflow' . --exclude=*.venv* --exclude=*.git* --exclude=*.vscode* --exclude=*.github* --exclude=*__pycache__* --exclude=.codeclimate.yml
+        run: zip -9 -r 'GenereratePasswords.alfredworkflow' . --exclude=*.venv* --exclude=*.git* --exclude=*.vscode* --exclude=*.github* --exclude=*__pycache__* --exclude=.codeclimate.yml
       - name: Add Release asset
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: 'Genererate Passwords.alfredworkflow'
+          files: 'GenereratePasswords.alfredworkflow'
