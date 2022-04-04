@@ -5,8 +5,7 @@
 [![Issues](https://img.shields.io/github/issues/otherguy/alfred-passwords-workflow.svg?style=flat-square)](https://github.com/otherguy/alfred-passwords-workflow/issues)
 [![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/otherguy/alfred-passwords-workflow?style=flat-square)](https://codeclimate.com/github/otherguy/alfred-passwords-workflow)
 [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/otherguy/alfred-passwords-workflow?style=flat-square)](https://codeclimate.com/github/otherguy/alfred-passwords-workflow)
-
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
+[![MIT License](https://img.shields.io/badge/license-MIT-pink.svg?style=flat-square)](LICENSE.md)
 
 A workflow for [Alfred 4](http://www.alfredapp.com) that helps you to quickly and securely generate random passwords of any given length.
 
