@@ -1,0 +1,29 @@
+name: release
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+
+  release:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version:
+          - '3.8.9' # Monterey default
+    steps:
+      - name: 'Set up Python ${{ matrix.python-version }}'
+        uses: actions/setup-python@v2
+        with:
+          python-version: '${{ matrix.python-version }}'
+      - uses: actions/checkout@v2
+      - run: python -m pip install --ignore-installed --target=lib -r requirements.txt
+      - name: Package Project
+        run: zip -r 'Genererate Passwords.alfredworkflow' . -x .venv/**\* .git/**\* .github/**\* .vscode/**\*
+      - name: Add Release asset
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: 'Genererate Passwords.alfredworkflow'
