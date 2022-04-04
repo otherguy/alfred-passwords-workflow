@@ -28,11 +28,11 @@ The workflow supports automatic updates and will perform daily update checks.
 
 ## Caveats and Requirements
 
-This workflow requires [Alfred 3](https://www.alfredapp.com) and won’t run on **Snow Leopard (10.6)** or lower.
+This workflow requires [Alfred 4](https://www.alfredapp.com).
 
 ## Usage
 
-The default keyword is `pw`. The first and only parameter is the desired password length, defaulting to 10.
+The default keyword is `pw`. The first and only parameter is the desired password length, defaulting to 20.
 
 When hitting `⏎ Return` on a selected item, the generated password is copied to the clipboard.
 
