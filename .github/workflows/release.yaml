@@ -27,6 +27,8 @@ jobs:
         run: echo ${{ steps.version.outputs.VERSION }}
       - name: Write version file
         run: echo ${{ steps.version.outputs.VERSION }} > version
+      - name: Update info.plist
+        run: perl -pi.bak -e "s/<string>(\d+\.\d+\.\d+)<\/string>/<string>${{ steps.version.outputs.VERSION }}<\/string>/ig" info.plist
       - name: Package Project
         run: zip -9 -r 'Genererate Passwords.alfredworkflow' . --exclude=*.venv* --exclude=*.git* --exclude=*.vscode* --exclude=*.github* --exclude=*__pycache__* --exclude=.codeclimate.yml
       - name: Add Release asset
