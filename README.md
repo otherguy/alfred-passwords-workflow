@@ -5,20 +5,19 @@
 [![Circle CI](https://img.shields.io/circleci/project/github/otherguy/alfred-passwords-workflow/master.svg?style=flat-square)](https://circleci.com/gh/otherguy/alfred-passwords-workflow/tree/master)
 [![Issues](https://img.shields.io/github/issues/otherguy/alfred-passwords-workflow.svg?style=flat-square)](https://github.com/otherguy/alfred-passwords-workflow/issues)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
-[![Beerpay](https://img.shields.io/beerpay/otherguy/alfred-passwords-workflow.svg?style=flat-square)](https://beerpay.io/otherguy/alfred-passwords-workflow)
 
 A workflow for [Alfred 4](http://www.alfredapp.com) that helps you to quickly and securely generate random passwords of any given length.
 
-By default, it generates both an alphanumeric password and a strong password, containing special characters. As a bonus, it also generates [XKCD passwords](https://xkcd.com/936/) with 3 and 4 words.
+By default, it generates both an alphanumeric password and a strong password, containing special characters. As a bonus, it also generates [XKCD passwords](https://xkcd.com/936/) with both 3 and 4 words.
 
-Selecting the generated password copies it to the clipboard.
+Selecting the generated password in Alfred copies it to the clipboard.
 
 ![Example Screencast](resources/screencast-1.gif)
 
-The latest version can be found here as well:
+The latest version can also be found on:
 
-* http://www.packal.org/workflow/genererate-passwords
-* https://www.alfredforum.com/topic/11717-generate-passwords-workflow/
+* [Pacmax](https://pacmax.org/pac/otherguy-alfred-passwords-workflow/)
+* [The Alfred Forum](https://www.alfredforum.com/topic/11717-generate-passwords-workflow/)
 
 ## Installation
 

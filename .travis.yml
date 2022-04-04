@@ -1,0 +1,27 @@
+language: python
+
+python:
+  - "2.7"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+  - "3.8"
+
+env:
+  global:
+    # This is a write-only ID that can only post test reports.
+    - CC_TEST_REPORTER_ID=b8cbd5fee1ea6bd07ec2941a31efdac0b94388f5a4a9498a2605eb1e59b2fcf2
+    - COVERALLS_REPO_TOKEN=97gr8Jdu5WXrcer1UmmGAQeG4C9AH9V8b
+    - GIT_COMMITTED_AT=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git log -1 --pretty=format:%ct; else git log -1 --skip 1 --pretty=format:%ct; fi)
+
+install:
+  - pip install -r requirements.txt
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+
+script:
+  - coverage run --branch -m unittest discover --start-directory tests
+
+after_success:
+  - travis_retry coveralls
