@@ -1,14 +1,26 @@
 version: 2
 updates:
-- package-ecosystem: pip
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "04:00"
-  open-pull-requests-limit: 10
-  reviewers:
-  - otherguy
-  assignees:
-  - otherguy
-  labels:
-  - "dependabot \U0001F916"
+
+  # Pip packages
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: daily
+    reviewers:
+      - otherguy
+    assignees:
+      - otherguy
+    labels:
+    - "dependabot \U0001F916"
+
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    reviewers:
+      - otherguy
+    assignees:
+      - otherguy
+    labels:
+    - "dependabot \U0001F916"
