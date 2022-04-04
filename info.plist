@@ -48,6 +48,55 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>pw</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please wait...</string>
+				<key>script</key>
+				<string>PYTHONPATH=lib /usr/bin/env python3 pwgen.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Generate a strong password with a given length.</string>
+				<key>title</key>
+				<string>Generate password</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>85965971-40c1-4e38-9c00-a82e11c4987c</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -69,57 +118,12 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>4</integer>
-				<key>keyword</key>
-				<string>pw</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Please wait...</string>
-				<key>script</key>
-				<string>/usr/bin/python pwgen.py "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>Generate a strong password with a given length.</string>
-				<key>title</key>
-				<string>Generate password</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>85965971-40c1-4e38-9c00-a82e11c4987c</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>transient</key>
 				<true/>
 			</dict>
@@ -128,7 +132,7 @@
 			<key>uid</key>
 			<string>C791FBC2-1DA6-4B77-B389-0C05251314D6</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -138,27 +142,29 @@
 		<key>6E356696-D5A5-4140-B076-F7DC9BA8667A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>540</integer>
+			<integer>480</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>50</integer>
 		</dict>
 		<key>85965971-40c1-4e38-9c00-a82e11c4987c</key>
 		<dict>
 			<key>xpos</key>
-			<integer>110</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>50</integer>
 		</dict>
 		<key>C791FBC2-1DA6-4B77-B389-0C05251314D6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>290</integer>
+			<integer>230</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>50</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>0.1.0</string>
+	<string>1.0.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/otherguy/alfred-passwords-workflow</string>
 </dict>

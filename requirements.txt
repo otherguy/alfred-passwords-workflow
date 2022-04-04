@@ -1,4 +1,4 @@
-Alfred-Workflow==1.40.0
+git+https://github.com/NorthIsUp/alfred-workflow-py3@3459e24#Alfred-Workflow
 xkcdpass==1.19.3
 coverage==6.3.2
 python-coveralls==2.9.3

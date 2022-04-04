@@ -15,11 +15,11 @@ def main(wf):
 
     # Defaults
     defaults = {
-        'password_length': 10,
+        'password_length': 20,
         'xkcd_delimiter':  '-',
         'xkcd_minlength':  4,
         'xkcd_maxlength':  10,
-        'xkcd_wordllist': 'eff-long',  # eff-long (English)
+        'xkcd_wordllist': 'eff-long', # eff-long (English), spa-mich (Spanish), fin-kotus (Finnish), ita-wiki (Italian), ger-anlx (German)
     }
 
     # =============================== MAIN =================================
