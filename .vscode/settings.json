@@ -1,3 +1,11 @@
 {
-    "python.pythonPath": "${workspaceFolder}/.venv/bin/python"
+    "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
 }

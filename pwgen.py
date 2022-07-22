@@ -52,9 +52,14 @@ def main(wf):
     full_pw_charset = string.ascii_uppercase + string.ascii_lowercase + string.digits + special_chars
     alnum_pw_charset = string.ascii_uppercase + string.ascii_lowercase + string.digits
 
+    # Ambiguous characters (0, O, 1, l) and potentially problematic special characters
+    hard_to_read_chars = set("1lLJjO0gqDQ\"'()+,-./:;<=>?[\]^_`{|}~")
+    easy_to_read_pw_charset = "".join(set(full_pw_charset).difference(hard_to_read_chars))
+
     # Generate passwords
     full_pw = genpw(password_length, full_pw_charset)
     alnum_pw = genpw(password_length, alnum_pw_charset)
+    easy_to_read_pw = genpw(password_length, easy_to_read_pw_charset)
 
     # Update workflow if a new version is available.
     if wf.update_available is True:
@@ -66,6 +71,7 @@ def main(wf):
     # Add password items
     wf.add_item('%d character password' % password_length, full_pw, valid=True, arg=full_pw)
     wf.add_item('%d character password (no special characters)' % password_length, alnum_pw, valid=True, arg=alnum_pw)
+    wf.add_item('%d character password (easy to read)' % password_length, easy_to_read_pw, valid=True, arg=easy_to_read_pw)
     wf.add_item('XKCD Password (3 words)', xkcd_3, valid=True, arg=xkcd_3)
     wf.add_item('XKCD Password (4 words)', xkcd_4, valid=True, arg=xkcd_4)
 
