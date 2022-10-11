@@ -1,4 +1,4 @@
-# Generate Passwords Workflow 🔐 for [Alfred 4](http://www.alfredapp.com)
+# Generate Passwords Workflow 🔐 for [Alfred](http://www.alfredapp.com)
 
 [![Latest Version](https://img.shields.io/github/tag/otherguy/alfred-passwords-workflow.svg?style=flat-square&label=release)](https://github.com/otherguy/alfred-passwords-workflow/tags)
 [![Downloads](https://img.shields.io/github/downloads/otherguy/alfred-passwords-workflow/total.svg?style=flat-square)](https://github.com/otherguy/alfred-passwords-workflow/releases)
@@ -7,7 +7,7 @@
 [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/otherguy/alfred-passwords-workflow?style=flat-square)](https://codeclimate.com/github/otherguy/alfred-passwords-workflow)
 [![MIT License](https://img.shields.io/badge/license-MIT-pink.svg?style=flat-square)](LICENSE.md)
 
-A workflow for [Alfred 4](http://www.alfredapp.com) that helps you to quickly and securely generate random passwords of any given length.
+A workflow for [Alfred](http://www.alfredapp.com) that helps you to quickly and securely generate random passwords of any given length.
 
 By default, it generates both an alphanumeric password and a strong password, containing special characters. As a bonus, it also generates [XKCD passwords](https://xkcd.com/936/) with both 3 and 4 words.
 
@@ -28,7 +28,7 @@ The workflow supports automatic updates and will perform daily update checks.
 
 ## Caveats and Requirements
 
-This workflow requires [Alfred 4](https://www.alfredapp.com).
+This workflow requires [Alfred](https://www.alfredapp.com) 4 or above.
 
 ## Usage
 
