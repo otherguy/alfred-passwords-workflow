@@ -42,7 +42,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Genererate Passwords</string>
+	<string>Generate Passwords</string>
 	<key>objects</key>
 	<array>
 		<dict>
